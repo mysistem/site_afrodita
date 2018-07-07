@@ -1,0 +1,72 @@
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  margin-right: 30px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  position: relative;
+  padding-left: 35px;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.nav__link::before,
+.nav__link::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  background: url('../../img/sprite/spritesheet.png') no-repeat;
+  transition: .3s;
+}
+
+.nav__link--main-icon::after {
+  background-position: -30px -246px;
+}
+
+.nav__link--feed-icon::after {
+  background-position: -228px -30px;
+}
+
+.nav__link--service-icon::after {
+  background-position: -269px -211px;
+}
+
+.nav__link--main-icon::before,
+.nav__link--active.nav__link--main-icon::after {
+  background-position: -109px -246px;
+}
+
+.nav__link--feed-icon::before,
+.nav__link--active.nav__link--feed-icon::after {
+  background-position: -30px -108px;
+}
+
+.nav__link--service-icon::before,
+.nav__link--active.nav__link--service-icon::after {
+  background-position: -348px -211px;
+}
+
+.nav__link:hover::after {
+  opacity: 0;
+}
+
+.nav__link--active,
+.nav__link:hover {
+  color: rgb(248, 149, 19);
+}

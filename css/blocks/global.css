@@ -1,0 +1,30 @@
+.title {
+  font-weight: bold;
+  font-size: 49px;
+  color: rgb(34, 31, 31);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.title--color-white {
+  color: rgb(255, 255, 255);
+}
+
+.title--center {
+  text-align: center;
+}
+
+.title--form {
+  text-transform: none;
+  margin-bottom: 18px;
+}
+
+.title--big-margin {
+  margin-bottom: 80px;
+}
+
+.main-content {
+  margin-bottom: 66px;
+  padding-top: 40px;
+}

@@ -1,0 +1,40 @@
+.intro {
+  display: flex;
+  background: url('../../img/decor/intro/intro.jpg') center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.intro__anim {
+  display: none;
+  margin: auto;
+  text-align: center;
+}
+
+.animated {
+  display: block;
+  animation: bounceIn 1s;
+}
+
+.intro__logo {
+  margin-bottom: 35px;
+}
+
+.intro__link {
+  display: block;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  background-color: rgb(248, 149, 19);
+  transition: 0.3s;
+}
+
+.intro__link:hover {
+  background-color: rgb(19, 20, 21);
+}

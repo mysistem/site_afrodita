@@ -1,0 +1,72 @@
+/* layout settings */
+
+@import url("layout/normalize.css");
+@import url("layout/base.css");
+
+/* blocks */
+
+@import url("blocks/global.css");
+@import url("blocks/header.css");
+@import url("blocks/footer.css");
+@import url("blocks/nav.css");
+@import url("blocks/breadcrumbs.css");
+@import url("blocks/pagination.css");
+@import url("blocks/dropdown.css");
+
+/* Intro page */
+
+@import url('intro/intro-animate.css');
+@import url('intro/intro.css');
+
+/* Main page */
+
+@import url('main/banner.css');
+@import Url('main/features.css');
+@import url('main/last-news.css');
+
+/* Reviews page */
+
+@import url('reviews/reviews.css');
+@import url('reviews/pattern.css');
+@import url('reviews/feedback.css');
+
+/* Prices page */
+
+@import url('prices/prices.css');
+@import url('prices/partners.css');
+
+@font-face {
+  font-family: 'Gora';
+  src: url("../fonts/gora-free-webfont.woff2") format("woff2"), url("../fonts/gora-free-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open';
+  src: url("../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open';
+  src: url("../fonts/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans-light-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open';
+  src: url("../fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("../fonts/opensans-lightitalic-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: italic; }
+
+
+
+.logo__link {
+  display: block;
+  font-family: 'Gora';
+  font-size: 18px;
+  color: #f89513;
+  text-decoration: none; }
+
+
+

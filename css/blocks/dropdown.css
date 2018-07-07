@@ -1,0 +1,52 @@
+.contacts__drop {
+  position: absolute;
+  top: 38px;
+  right: -9999px;
+  font-size: 14px;
+  min-width: 160px;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+  line-height: 1.8;
+  letter-spacing: normal;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.contacts__desc:hover .contacts__drop {
+  right: 0;
+  opacity: 1;
+}
+
+.contacts__drop::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: -1px;
+}
+
+.contacts__drop::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: -25px;
+  right: 0;
+}
+
+.contacts__drop-day {
+  color: rgb(248, 149, 19);
+}
+
+.contacts__drop-time {
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+}

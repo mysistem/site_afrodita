@@ -1,0 +1,72 @@
+.features {
+  background-color: #131415;
+  padding-top: 55px;
+  padding-bottom: 44px;
+  margin-bottom: 57px;
+}
+
+.features__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.features__item {
+  margin-bottom: 50px;
+}
+
+.feature {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.feature__icon {
+  display: inline-block;
+  background: url('../../img/sprite/spritesheet.png') no-repeat rgb(248, 149, 19);
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.feature__icon--flower {
+  background-position: -90px -90px;
+}
+
+.feature__icon--star {
+  background-position: -291px -14px;
+}
+
+.feature__icon--pallete {
+  background-position: -252px -103px;
+}
+
+.feature__title {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 23px;
+}
+
+.feature__desc {
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.feature__list {
+  text-align: left;
+}
+
+.feature__item {
+  margin-bottom: 13px;
+}
+
+.feature__item::before {
+  content: "•";
+  margin-right: 25px;
+}

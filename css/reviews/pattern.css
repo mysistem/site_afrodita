@@ -1,0 +1,18 @@
+.pattern {
+  background: url("../../img/decor/pattern.jpg");
+}
+
+.pattern__content-text {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+  width: 670px;
+  margin: 0 auto;
+  padding-top: 22px;
+  padding-bottom: 29px;
+}
+
+.pattern__content-text span {
+  color: rgb(248, 149, 19);
+  font-weight: bold;
+}

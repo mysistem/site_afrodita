@@ -1,0 +1,9 @@
+.banner {
+  padding-top: 80px;
+  padding-bottom: 13px;
+}
+
+.banner__img {
+  max-width: 100%;
+  height: auto;
+}

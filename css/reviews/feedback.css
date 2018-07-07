@@ -1,0 +1,128 @@
+.feedback {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding-top: 55px;
+  margin-bottom: 60px;
+}
+
+.feedback__content {
+  padding: 40px 70px;
+  background-color: rgb(245, 245, 245);
+}
+
+.form {
+  font-size: 14px;
+  color: #221f1f;
+}
+
+.form__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.form__col {
+  width: 270px;
+}
+
+.form__label {
+  display: block;
+  padding-bottom: 7px;
+}
+
+.form__input {
+  width: 270px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 12px 10px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.form__input:focus {
+  border-color: rgb(248, 149, 19);
+  outline: none;
+}
+
+.form__input--textarea {
+  width: 560px;
+  height: 90px;
+  resize: none;
+}
+
+.form__controls-title {
+  margin-bottom: 10px;
+}
+
+.form__controls-radios {
+  display: flex;
+}
+
+.form__radio {
+  display: flex;
+  position: relative;
+  margin-right: 20px;
+}
+
+.form__radio-elem {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+
+.form__radio-fake {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+  position: relative;
+  margin-right: 5px;
+}
+
+.form__radio-fake::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgb(248, 149, 19);
+}
+
+.form__radio-elem:checked + .form__radio-fake {
+  border-color: rgb(248, 149, 19);
+}
+
+.form__radio-elem:checked + .form__radio-fake::after {
+  width: 8px;
+  height: 8px;
+}
+
+.form__radio-elem:checked + .form__radio-fake + .form__radio-title {
+  color: rgb(248, 149, 19);
+}
+
+.form__col-right {
+  text-align: right;
+}
+
+.form__submit {
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #27273e;
+  color: #fff;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.form__submit:hover {
+  background: rgb(248, 149, 19);
+}

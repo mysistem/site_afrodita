@@ -1,0 +1,26 @@
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -33px;
+}
+
+.partners__item {
+  width: 250px;
+  margin-bottom: 45px;
+  text-align: center;
+  align-self: center;
+}
+
+.partner__link {
+  display: block;
+}
+
+.partner__logo {
+  filter: opacity(0.7) grayscale(1);
+  transition: 0.5s;
+}
+
+.partner__logo:hover {
+  filter: none;
+}
