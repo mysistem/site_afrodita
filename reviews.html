@@ -19,71 +19,56 @@
 </head>
 
 <body>
-
   <div class="wrapper">
-
     <header class="header">
-      <div class="container">
-        <div class="header__row">
-          <div class="header__col">
-            <a href="main.html" class="logo__link">
+        <div class="container header__row">
+        <a href="main.html" class="logo__link">
               <span>афродита</span>
             </a>
-          </div>
-          <div class="header__col">
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="main.html" class="nav__link nav__link--icon nav__link--main-icon">Главная</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#" class="nav__link nav__link--icon nav__link--feed-icon nav__link--active">Отзывы</a>
-                </li>
-                <li class="nav__item">
-                  <a href="prices.html" class="nav__link nav__link--icon nav__link--service-icon">Услуги</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header__col">
-            <adress class="contacts">
-              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-              <a class="contacts__desc">
-                График работы
-                <div class="contacts__drop">
-                  <span class="contacts__drop-day">пн-вс: 09:00-20:00</span>
-                  <br>
-                  <span class="contacts__drop-time">обед: 14:00-14:30</span>
-                </div>
-              </a> 
-            </adress>
-          </div> 
-        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="main.html" class="nav__link nav__link--icon nav__link--main-icon">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--icon nav__link--feed-icon nav__link--active">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="prices.html" class="nav__link nav__link--icon nav__link--service-icon">Услуги</a>
+            </li>
+          </ul>
+        </nav>
+        <adress class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+          <button class="contacts__desc">
+            График работы
+            <div class="contacts__drop">
+              <span class="contacts__drop-day">пн-вс: 09:00-20:00</span>
+              <br>
+              <span class="contacts__drop-time">обед: 14:00-14:30</span>
+            </div>
+          </button>
+        </adress>
       </div>
     </header>
-
     <main class="main-content">
       <div class="container container--article">
-
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
               <a href="main.html" class="breadcrumbs__link">Главная</a>
             </li>
             <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Отзывы</a>
+              <span class="breadcrumbs__link breadcrumbs__link--active">Отзывы</span>
             </li>
           </ul>
         </nav>
-
         <section class="reviews">
           <h2 class="title">Отзывы</h2>
           <ul class="reviews__list">
             <li class="reviews__item">
               <div class="review">
-                <div class="review__avatar">
-                  <img src="img/avatar/avatar_reviews/alex.jpg" alt="avatar1" class="review__img">
-                </div>
+                <img src="img/avatar/avatar_reviews/alex.jpg" alt="avatar1" class="review__img">
                 <div class="review__content">
                   <div class="review__data">12.10.2016</div>
                   <h5 class="review__title">Алексей Воронов</h5>
@@ -95,9 +80,7 @@
             </li>
             <li class="reviews__item">
               <div class="review">
-                <div class="review__avatar">
-                  <img src="img/avatar/avatar_reviews/inna.jpg" alt="avatar2" class="review__img">
-                </div>
+                <img src="img/avatar/avatar_reviews/inna.jpg" alt="avatar2" class="review__img">
                 <div class="review__content">
                   <div class="review__data">01.02.2016</div>
                   <h5 class="review__title">Инна Смольная</h5>
@@ -109,9 +92,9 @@
             </li>
             <li class="reviews__item">
               <div class="review">
-                <div class="review__avatar">
+                
                   <img src="img/avatar/avatar_reviews/logo-fig.png" alt="avatar3" class="review__img">
-                </div>
+                
                 <div class="review__content">
                   <div class="review__data">22.12.2015</div>
                   <h5 class="review__title">Владимир Савельев</h5>
@@ -123,13 +106,13 @@
             </li>
             <li class="reviews__item">
               <div class="review">
-                <div class="review__avatar">
+                
                   <img src="img/avatar/avatar_reviews/irina.jpg" alt="avatar4" class="review__img">
-                </div>
+                
                 <div class="review__content">
                   <div class="review__data">14.08.2015</div>
                   <h5 class="review__title">Ирина Савина</h5>
-                  <p class="review__desc">                          
+                  <p class="review__desc">
                     Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
                   </p>
                 </div>
@@ -137,11 +120,10 @@
             </li>
           </ul>
         </section>
-
         <section class="pagination">
           <div class="pagination__info">Страница
-              <span class="pagination__current">1</span> из
-              <span class="pagination__total">7</span>
+            <span class="pagination__current">1</span> из
+            <span class="pagination__total">7</span>
           </div>
           <a href="#" class="pagination__btn pagination__btn--prev"></a>
           <ul class="pagination__list">
@@ -169,16 +151,13 @@
           </ul>
           <a href="#" class="pagination__btn pagination__btn--next"></a>
         </section>
-
       </div>
     </main>
-        
     <section class="pattern">
-      <div class="pattern__content-text">
-          Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. <span>Ждем ваших заявок!</span> 
-      </div>
+      <p class="pattern__content-text">
+        Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий. <span>Ждем ваших заявок!</span>
+      </p>
     </section>
-
     <section class="feedback">
       <div class="feedback__content">
         <h2 class="title title--form">Оставить отзыв</h2>
@@ -224,11 +203,8 @@
         </form>
       </div>
     </section>
-      
-    </div>
-
   </div>
-
+  </div>
   <footer class="footer">
     <div class="container">
       <div class="footer__row">
@@ -238,10 +214,10 @@
             <a href="https://loftschool.com" class="copiright__link">LoftSchool</a>. Автор работы: <b>Яров Андрей</b>
           </div>
         </div>
-        <div class="footer__col">
+        <div class="logo__footer">
           <a href="main.html" class="logo__link">
               <span>афродита</span>
-            </a>  
+            </a>
         </div>
         <div class="footer__col footer__col--right">
           <div class="socials">
@@ -268,7 +244,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>

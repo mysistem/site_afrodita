@@ -21,50 +21,42 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
-        <div class="header__row">
-          <div class="header__col">
-            <a href="main.html" class="logo__link">
+      <div class="container header__row">
+        <a href="main.html" class="logo__link">
               <span>афродита</span>
             </a>
-          </div>
-          <div class="header__col">
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#" class="nav__link nav__link--icon nav__link--main-icon nav__link--active">Главная</a>
-                </li>
-                <li class="nav__item">
-                  <a href="reviews.html" class="nav__link nav__link--icon nav__link--feed-icon">Отзывы</a>
-                </li>
-                <li class="nav__item">
-                  <a href="prices.html" class="nav__link nav__link--icon nav__link--service-icon">Услуги</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header__col">
-            <adress class="contacts">
-              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-              <a class="contacts__desc">
-                График работы
-                <div class="contacts__drop">
-                  <span class="contacts__drop-day">пн-вс: 09:00-20:00</span>
-                  <br>
-                  <span class="contacts__drop-time">обед: 14:00-14:30</span>
-                </div>
-              </a>
-            </adress>
-          </div>
-        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--icon nav__link--main-icon nav__link--active">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="reviews.html" class="nav__link nav__link--icon nav__link--feed-icon">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a href="prices.html" class="nav__link nav__link--icon nav__link--service-icon">Услуги</a>
+            </li>
+          </ul>
+        </nav>
+        <adress class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+          <button class="contacts__desc">
+            График работы
+            <div class="contacts__drop">
+              <span class="contacts__drop-day">пн-вс: 09:00-20:00</span>
+              <br>
+              <span class="contacts__drop-time">обед: 14:00-14:30</span>
+            </div>
+          </button>
+        </adress>
       </div>
     </header>
-    <section class="banner">
-      <div class="container container--small">
-        <img src="img/decor/banner.png" alt="Just do it" class="banner__img">
-      </div>
-    </section>
     <main class="main-content">
+      <section class="banner">
+        <div class="container container--small">
+          <img src="img/decor/banner.png" alt="Just do it" class="banner__img">
+        </div>
+      </section>
       <section class="features">
         <div class="container container--small">
           <h2 class="title title--color-white title--center">Особенности</h2>
@@ -108,113 +100,109 @@
           </ul>
         </div>
       </section>
-      <div class="container">
-        <section class="news">
-          <h2 class="title title--center">Последние новости</h2>
-          <div class="news__wrapper">
-            <section class="last-news">
-              <ul class="last-news__list">
-                <li class="last-news__item">
-                  <div class="new">
-                    <div class="new__avatar">
-                      <img src="img/avatar/avatar_news/blackhole.jpg" alt="blackhole" class="new__img">
-                    </div>
-                    <div class="new__content">
-                      <div class="new__data">12.10.2016</div>
-                      <h5 class="new__title">Похудение с помощью бодибилдинга!</h5>
-                      <p class="new__desc">
-                        Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
-                      </p>
-                    </div>
+      <section class="container news">
+        <h2 class="title title--center">Последние новости</h2>
+        <div class="last__news">
+            <ul class="last-news__list">
+              <li class="last-news__item">
+                <div class="new">
+                  <div class="new__avatar">
+                    <img src="img/avatar/avatar_news/blackhole.jpg" alt="blackhole" class="new__img">
                   </div>
-                </li>
-                <li class="last-news__item">
-                  <div class="new">
-                    <div class="new__avatar">
-                      <img src="img/avatar/avatar_news/pinksmoke.jpg" alt="pinksmoke" class="new__img">
-                    </div>
-                    <div class="new__content">
-                      <div class="new__data">01.02.2016</div>
-                      <h5 class="new__title">Заражай друзей, получай призы!</h5>
-                      <p class="new__desc">
-                        Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-                      </p>
-                    </div>
+                  <div class="new__content">
+                    <div class="new__data">12.10.2016</div>
+                    <h5 class="new__title">Похудение с помощью бодибилдинга!</h5>
+                    <p class="new__desc">
+                      Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
+                    </p>
                   </div>
-                </li>
-                <li class="last-news__item">
-                  <div class="new">
-                    <div class="new__avatar">
-                      <img src="img/avatar/avatar_news/workplace.jpg" alt="workspace" class="new__img">
-                    </div>
-                    <div class="new__content">
-                      <div class="new__data">22.12.2015</div>
-                      <h5 class="new__title">Фрилансер? Выпрями спину!</h5>
-                      <p class="new__desc">
-                        Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
-                      </p>
-                    </div>
+                </div>
+              </li>
+              <li class="last-news__item">
+                <div class="new">
+                  <div class="new__avatar">
+                    <img src="img/avatar/avatar_news/pinksmoke.jpg" alt="pinksmoke" class="new__img">
                   </div>
-                </li>
-              </ul>
-            </section>
-            <section class="top-news">
-              <div class="top-news__title">
-                <h3 class="top-news__top">Топ новостей</h3>
-                <span class="top-news__data">за сентябрь</span>
-              </div>
-              <ul class="top-news__list">
-                <li class="top-news__item">
-                  <a href="" class="top-news__link">
+                  <div class="new__content">
+                    <div class="new__data">01.02.2016</div>
+                    <h5 class="new__title">Заражай друзей, получай призы!</h5>
+                    <p class="new__desc">
+                      Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="last-news__item">
+                <div class="new">
+                  <div class="new__avatar">
+                    <img src="img/avatar/avatar_news/workplace.jpg" alt="workspace" class="new__img">
+                  </div>
+                  <div class="new__content">
+                    <div class="new__data">22.12.2015</div>
+                    <h5 class="new__title">Фрилансер? Выпрями спину!</h5>
+                    <p class="new__desc">
+                      Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          <section class="top-news">
+            <div class="top-news__title">
+              <h3 class="top-news__top">Топ новостей</h3>
+              <span class="top-news__data">за сентябрь</span>
+            </div>
+            <ul class="top-news__list">
+              <li class="top-news__item">
+                <a href="" class="top-news__link">
                     <img src="img/avatar/avatar_news/Layer 10.jpg" alt="" class="top-news__img">
                   </a>
-                </li>
-                <li class="top-news__item">
-                  <a href="" class="top-news__link">
+              </li>
+              <li class="top-news__item">
+                <a href="" class="top-news__link">
                     <img src="img/avatar/avatar_news/Layer 11.jpg" alt="" class="top-news__img">
                   </a>
-                </li>
-                <li class="top-news__item">
-                  <a href="" class="top-news__link">
+              </li>
+              <li class="top-news__item">
+                <a href="" class="top-news__link">
                     <img src="img/avatar/avatar_news/Layer 12.jpg" alt="" class="top-news__img">
                   </a>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </section>
-        <section class="pagination">
-          <div class="pagination__info">Страница
-            <span class="pagination__current">1</span> из
-            <span class="pagination__total">7</span>
-          </div>
-          <a href="#" class="pagination__btn pagination__btn--prev"></a>
-          <ul class="pagination__list">
-            <li class="pagination__item pagination__item--active">
-              <a href="#" class="pagination__link">1</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">2</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">3</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">4</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">5</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">6</a>
-            </li>
-            <li class="pagination__item">
-              <a href="#" class="pagination__link">7</a>
-            </li>
-          </ul>
-          <a href="#" class="pagination__btn pagination__btn--next"></a>
-        </section>
-      </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <section class="pagination">
+        <div class="pagination__info">Страница
+          <span class="pagination__current">1</span> из
+          <span class="pagination__total">7</span>
+        </div>
+        <a href="#" class="pagination__btn pagination__btn--prev"></a>
+        <ul class="pagination__list">
+          <li class="pagination__item pagination__item--active">
+            <a href="#" class="pagination__link">1</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">2</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">3</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">4</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">5</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">6</a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link">7</a>
+          </li>
+        </ul>
+        <a href="#" class="pagination__btn pagination__btn--next"></a>
+      </section>
     </main>
   </div>
   <footer class="footer">
@@ -226,10 +214,10 @@
             <a href="https://loftschool.com" class="copiright__link">LoftSchool</a>. Автор работы: <b>Яров Андрей</b>
           </div>
         </div>
-        <div class="footer__col">
-          <a href="main.html" class="logo__link">
+        <div class="logo__footer">
+          <a href="main.html" class="logo__footer-link">
               <span>афродита</span>
-            </a>
+          </a>
         </div>
         <div class="footer__col footer__col--right">
           <div class="socials">

@@ -61,12 +61,12 @@
 
 
 
-.logo__link {
+.logo__link, .logo__footer-link {
   display: block;
   font-family: 'Gora';
   font-size: 18px;
   color: #f89513;
-  text-decoration: none; }
-
+  text-decoration: none; 
+}
 
 
